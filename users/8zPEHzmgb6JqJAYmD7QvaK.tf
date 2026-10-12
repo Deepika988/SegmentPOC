@@ -37,6 +37,17 @@ resource "segment_user" "id-8zPEHzmgb6JqJAYmD7QvaK" {
           type = "WORKSPACE"
         },
       ]
+      role_id = "1Mc8DFMmZbyzdEWmE6k8JVgKAiE"
+    },
+    {
+      resources = [
+        {
+          id = "iF3Bm3sJRbntPvsBneVGJT"
+          labels = [
+          ]
+          type = "WORKSPACE"
+        },
+      ]
       role_id = "1Mc8DHU42rYyIp94oBPexlvYpf8"
     },
     {
@@ -60,17 +71,6 @@ resource "segment_user" "id-8zPEHzmgb6JqJAYmD7QvaK" {
         },
       ]
       role_id = "1PWCliYHNGD6q2xVM3MjSCD5WRU"
-    },
-    {
-      resources = [
-        {
-          id = "iF3Bm3sJRbntPvsBneVGJT"
-          labels = [
-          ]
-          type = "WORKSPACE"
-        },
-      ]
-      role_id = "1T4aB9og7L00rOWdpKsvJ0I3xDL"
     },
     {
       resources = [
