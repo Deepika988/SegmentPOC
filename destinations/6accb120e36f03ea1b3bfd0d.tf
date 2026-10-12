@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_destination" "id-6accb120e36f03ea1b3bfd0d" {
-  enabled = false
+  enabled = true
   metadata = {
     id                = "614a3c7d791c91c41bae7599"
     partner_owned     = false
@@ -13,6 +13,12 @@ resource "segment_destination" "id-6accb120e36f03ea1b3bfd0d" {
   }
   name = "webhook-test-deepika"
   settings = jsonencode({
+    dynamicAuthSettings = {
+      configId = "6accb120e36f03ea1b3bfd0d"
+      oauth = {
+        type = "noAuth"
+      }
+    }
     sharedSecret = ""
   })
   source_id = "dMT4TbMCp47izK4aZvPMza"
