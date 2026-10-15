@@ -9,7 +9,7 @@ resource "segment_source" "id-xkJ3ZQQ1GYHe1vrvM6HbTQ" {
   metadata = {
     id = "IqDTy1TpoU"
   }
-  name = "my-web-source"
+  name = "My Web Source using terraform"
   settings = jsonencode({
     apiHost = "api.segment.io/v1"
   })
